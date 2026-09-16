@@ -14,31 +14,6 @@ El trabajo se desarrolla en **JupyterLab**, un entorno interactivo que permite c
 
 El módulo `math` forma parte de la biblioteca estándar de Python, por lo que no es necesario instalarlo por separado.
 
-## Instalación
-
-Se recomienda crear un entorno virtual para mantener aisladas las dependencias del proyecto:
-
-```bash
-python -m venv .venv
-```
-
-Activa el entorno según tu sistema operativo:
-
-```bash
-# Windows PowerShell
-.venv\Scripts\Activate.ps1
-
-# macOS o Linux
-source .venv/bin/activate
-```
-
-Instala las dependencias:
-
-```bash
-python -m pip install --upgrade pip
-python -m pip install jupyterlab numpy matplotlib
-```
-
 
 ## Autoría
 
