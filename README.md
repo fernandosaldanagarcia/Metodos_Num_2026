@@ -1,23 +1,45 @@
-====================
+# Métodos Numéricos
 
-Este repositorio contiene los ejercicios a realizarce en las prácticas de programación del curso:
+Material de apoyo y prácticas de programación del curso de **Métodos Numéricos** de la Universidad Complutense de Madrid.
 
-Métodos Numéricos 
-
-de la Universidad Complutense de Madrid. 
+El trabajo se desarrolla en **JupyterLab**, un entorno interactivo que permite combinar explicaciones, fórmulas en LaTeX, código Python, gráficos y resultados numéricos en un mismo documento.
 
 
-El entorno de trabajo será Jupyter Lab dado que para la mayoría de las prácticas es conveniente
-escribir formulas matemáticas usando Latex.
+## Requisitos
 
-====================
+- Python 3.8 o una versión posterior.
+- JupyterLab.
+- NumPy.
+- Matplotlib.
 
-Requerimientos Python 3.8+
+El módulo `math` forma parte de la biblioteca estándar de Python, por lo que no es necesario instalarlo por separado.
 
-Modulos necesarios 
+## Instalación
 
-Numpy 
+Se recomienda crear un entorno virtual para mantener aisladas las dependencias del proyecto:
 
-Math
+```bash
+python -m venv .venv
+```
 
-Matplotlib
+Activa el entorno según tu sistema operativo:
+
+```bash
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
+
+# macOS o Linux
+source .venv/bin/activate
+```
+
+Instala las dependencias:
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install jupyterlab numpy matplotlib
+```
+
+
+## Autoría
+
+Material docente preparado por **Fernando Saldaña**.
